@@ -23,3 +23,6 @@
 <br>
 
 ## 5. Architecture
+    * Desktop
+    * Tablet
+    * Mobile
