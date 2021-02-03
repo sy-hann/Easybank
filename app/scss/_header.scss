@@ -1,4 +1,7 @@
 .header {
+  position: relative;
+  z-index: 1;
+
   //Hamburger open styles
   &.open {
     .header__toggle {
@@ -24,7 +27,7 @@
     bottom: 0;
     left: 0;
     background-image: linear-gradient($darkBlue, transparent);
-    z-index: 1;
+    // z-index: 1;
   }
 
   nav {
@@ -32,6 +35,12 @@
     background-color: $white;
     padding-top: 1.0625rem;
     padding-bottom: 1.0625rem;
+  }
+
+  nav {
+    @include breakpoint-down(medium) {
+      padding: 1.5rem 2rem;
+    }
   }
 
   &__logo {
@@ -107,8 +116,5 @@
         }
       }
     }
-  }
-
-  &__cta {
   }
 }
