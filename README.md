@@ -18,6 +18,5 @@
 <br>
 
 ## 4.  Result
-    ![AnyConv com__20210225_231640](https://user-images.githubusercontent.com/75168745/109166908-8e508580-77c0-11eb-9810-cc6712d18066.png)
     
 
